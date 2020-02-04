@@ -73,13 +73,13 @@ class CheckSum {
                               key,
                               encryptedCheckSum,
                               refundMode=false) {
-    const data = paramsToString(params, refundMode);
+    const data = CheckSum.paramsToString(params, refundMode);
 
     encryptedCheckSum = encryptedCheckSum.replace('\n', '');
     encryptedCheckSum = encryptedCheckSum.replace('\r', '');
     encryptedCheckSum = decodeURIComponent(encryptedCheckSum);
 
-    return await verifyCheckSumFromString(data, key, encryptedCheckSum);
+    return await CheckSum.verifyCheckSumFromString(data, key, encryptedCheckSum);
   };
 };
 
