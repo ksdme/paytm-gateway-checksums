@@ -2,7 +2,7 @@
   "name": "paytm-gateway-checksums",
   "version": "0.1.0",
   "description": "Utility to generate and check PayTM Gateway integration checksums.",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
