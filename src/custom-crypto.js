@@ -45,7 +45,6 @@ class CustomCrypto {
 
 
   static encrypt(data, key) {
-    console.log(CustomCrypto.IV);
     const algorithm = CustomCrypto.cipherAlgorithm(key);
     const cipher = crypto.createCipheriv(algorithm, key, CustomCrypto.IV);
 
