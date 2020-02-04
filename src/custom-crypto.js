@@ -23,7 +23,7 @@ class CustomCrypto {
       case 32: size = '256'; break;
     }
 
-    if (size = null) {
+    if (size === null) {
       throw new Error('Invalid key size');
     }
 
