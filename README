@@ -1,1 +1,12 @@
 A readable and maintainable version of https://github.com/Paytm-Payments/Paytm_App_Checksum_Kit_NodeJs/blob/master/paytm/checksum.js.
+
+Example
+```
+const checksum = require('paytm-gateway-checksums');
+
+// This method also takes an optional third parameter which when
+// true indicates that the parameters passed represent a refund.
+checksum.generateCheckSum(parameters, MERCHANT_KEY)
+  .then((sum) => console.log(sum))
+  .catch((error) => console.error(error));
+```
