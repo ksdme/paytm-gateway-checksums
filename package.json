@@ -1,0 +1,25 @@
+{
+  "name": "paytm-gateway-checksums",
+  "version": "0.1.0",
+  "description": "Utility to generate and check PayTM Gateway integration checksums.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksdme/paytm-gateway-checksums.git"
+  },
+  "keywords": [
+    "ksdme",
+    "paytm",
+    "checksum",
+    "payment-gateway"
+  ],
+  "author": "Kilari Teja (ksdme)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksdme/paytm-gateway-checksums/issues"
+  },
+  "homepage": "https://github.com/ksdme/paytm-gateway-checksums#readme"
+}
